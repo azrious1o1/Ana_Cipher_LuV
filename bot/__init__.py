@@ -550,9 +550,9 @@ except KeyError:
 try:
     TITLE_NAME = getConfig('TITLE_NAME')
     if len(TITLE_NAME) == 0:
-        TITLE_NAME = '💕 Emilia Clarke 💕'
+        TITLE_NAME = '💕 Ana dE Armas 💕'
 except KeyError:
-    TITLE_NAME = '💕 Emilia Clarke 💕'
+    TITLE_NAME = '💕 Ana dE Armas 💕'
 try:
     TOKEN_PICKLE_URL = getConfig('TOKEN_PICKLE_URL')
     if len(TOKEN_PICKLE_URL) == 0:
