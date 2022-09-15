@@ -30,7 +30,7 @@ def progress_bar(percentage):
     except:
         percentage = 0
     return ''.join(
-        p_used if i <= percentage // 10 else p_total for i in range(1, 11)
+        p_used if i <= percentage // 10 else p_total for i in range(1, 10)
     )
 
 def stats(update, context):
